@@ -24,6 +24,7 @@ body > div {
   margin: 0px auto;
   background-color: white;
   border: 2px solid #ffd24a;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 header {
