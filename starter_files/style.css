@@ -31,11 +31,6 @@ header {
   background-color: #ff8523;
 }
 
-/*header > a {
-  display: block;
-  margin-bottom: 20px;
-}*/
-
 .main_navigation {
   margin: 20px 0px;
 }
@@ -46,4 +41,21 @@ header {
   border: 1px solid white;
   border-radius: 5px;
   padding: 10px 40px;
+}
+
+#page_content {
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+li {
+  font-weight: bold;
+}
+
+section:nth-child(2) {
+  margin-top: 50px;
+  border-top: 5px solid #eee
 }
