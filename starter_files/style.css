@@ -57,5 +57,28 @@ li {
 
 section:nth-child(2) {
   margin-top: 50px;
-  border-top: 5px solid #eee
+  border-top: 5px solid #eee;
+  border-bottom: 5px solid #eee;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead td {
+  background-color: #1fabe5;
+  color: white;
+  border: 0.5px solid black;
+  padding: 10px 15px;
+}
+
+tbody td {
+  border: 0.5px solid #046c97;
+  padding: 5px 10px;
+}
+
+td img {
+  height: 75px;
 }
