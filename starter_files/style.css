@@ -125,10 +125,10 @@ div label {
 }
 
 textarea {
-  width: 100%;
+  width: 99%;
   border-color: #046c97;
   font-size: 15px;
-  padding: 10px 8px;
+  padding: 10px 0px 10px 8px;
 }
 
 .submit_container input {
