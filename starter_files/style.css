@@ -39,8 +39,12 @@ header {
   color: white;
   text-decoration: none;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 10px 40px;
+}
+
+.main_navigation > a:hover {
+  background-color: #046c97;
 }
 
 #page_content {
@@ -81,4 +85,60 @@ tbody td {
 
 td img {
   height: 75px;
+}
+
+section:nth-child(3) {
+  padding-bottom: 50px;
+  border-bottom: 5px solid #eee;
+}
+
+form {
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+div label {
+  font-weight: bold;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 8px;
+  padding: 20px 0px;
+}
+
+.name label {
+  color: white;
+  margin-left: 20px
+
+}
+
+.name input {
+  height: 40px;
+  width: 30%;
+  font-size: 15px;
+}
+
+.city_container {
+  margin: 25px 0px;
+}
+
+textarea {
+  width: 100%;
+  border-color: #046c97;
+  font-size: 15px;
+  padding: 10px 8px;
+}
+
+.submit_container input {
+  background-color: #1fabe5;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
 }
